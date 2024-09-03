@@ -11,8 +11,8 @@ permissions:
   actions: write
 
 env:
-  INSTANCE: 'Writerside/IoT'
-  ARTIFACT: 'webHelpIOT2-all.zip'
+  INSTANCE: 'Writerside/in'
+  ARTIFACT: 'webHelpIN2-all.zip'
   DOCKER_VERSION: '241.18775'
 
 jobs:
