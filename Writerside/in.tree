@@ -33,7 +33,9 @@
             </toc-element>
             <toc-element topic="Capacitive-Moisture-Sensor.md"/>
             <toc-element topic="Magnetic-Switch.md"/>
-            <toc-element topic="Sunlight-Sensor.md"/>
+            <toc-element topic="Sunlight-Sensor.md">
+                <toc-element topic="BeispielSunlight.md"/>
+            </toc-element>
         </toc-element>
     </toc-element>
 </instance-profile>
