@@ -10,6 +10,15 @@
     <toc-element toc-title="Grundlagen">
         <toc-element topic="IoT.md"/>
         <toc-element toc-title="Sensore und Aktore">
+            <toc-element topic="Servo-Motor.md">
+                <toc-element topic="BeispielServo.md"/>
+            </toc-element>
+            <toc-element topic="Relay.md">
+                <toc-element topic="BeispielRelay.md"/>
+            </toc-element>
+            <toc-element topic="UV-Sensor.md">
+                <toc-element topic="BeispielUV.md"/>
+            </toc-element>
             <toc-element topic="Ultrasonic-Distance-Sensor.md">
                 <toc-element topic="Beispiel.md"/>
             </toc-element>
@@ -29,10 +38,14 @@
                 <toc-element topic="BeispielTemp.md"/>
             </toc-element>
             <toc-element topic="electromagnet.md">
+                <toc-element topic="BeispielElectromagnet.md"/>
+            </toc-element>
+            <toc-element topic="Capacitive-Moisture-Sensor.md">
+                <toc-element topic="BeispielCMS.md"/>
+            </toc-element>
+            <toc-element topic="Magnetic-Switch.md">
                 <toc-element topic="BeispielMagnetic.md"/>
             </toc-element>
-            <toc-element topic="Capacitive-Moisture-Sensor.md"/>
-            <toc-element topic="Magnetic-Switch.md"/>
             <toc-element topic="Sunlight-Sensor.md">
                 <toc-element topic="BeispielSunlight.md"/>
             </toc-element>

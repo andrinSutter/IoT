@@ -2,7 +2,7 @@
 
 Der Potentiometer Wert wird auf den OLED Screen geschrieben.
 
-**Anschluss:** J1
+**Anschluss:** J3
 
 ![image_7.png](image_7.png)
 

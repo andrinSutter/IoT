@@ -1,4 +1,4 @@
-# electromagnet
+# Electromagnet
 
 Der **Elektromagnet** ist ein elektronisches Bauteil, das ein Magnetfeld erzeugt, wenn elektrischer Strom durch eine Spule fließt. Hier ist eine einfache Erklärung:
 

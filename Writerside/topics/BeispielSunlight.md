@@ -1,10 +1,9 @@
 # Beispiel
 
-Auf dem OLED Display werden die Lichtwerte angegeben.
 
 **Anschluss:** J5
 
-![image_8.png](image_8.png)
+![image_13.png](image_13.png)
 
 ````Javascript
 smartfeldSensoren.initSunlight()
@@ -14,4 +13,10 @@ loops.everyInterval(500, function () {
     OLED.writeStringNewLine("Licht: " + smartfeldSensoren.getHalfWord_Visible())
     OLED.writeStringNewLine("IR: " + smartfeldSensoren.getHalfWordIR())
 })
+loops.everyInterval(5000, function () {
+    if (100 <= smartfeldSensoren.getHalfWord_Visible()) {
+        music._playDefaultBackground(music.builtInPlayableMelody(Melodies.PowerUp), music.PlaybackMode.UntilDone)
+    }
+})
+
 ````

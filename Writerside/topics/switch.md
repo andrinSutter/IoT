@@ -1,2 +1,2 @@
-# micro switch
+# Micro Switch
 
